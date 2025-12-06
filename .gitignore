@@ -1,0 +1,27 @@
+# --- Python & Entornos Virtuales ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# --- IDEs & Editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Salidas del Proyecto (Outputs) ---
+# Ignoramos los archivos generados para no ensuciar el repo,
+# pero mantenemos la estructura de carpetas usando .gitkeep
+datos_exportados/*.xlsx
+graficos/*.png
+informe/*.pdf
+
+# Excepciones (Mantenemos los archivos de documentación si los hubiera)
+!informe/README.md
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
